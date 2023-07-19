@@ -124,6 +124,10 @@ nav{
     justify-content: flex-end;
     gap: 40px;
 }
+#hero-btn{
+  background: #4EC5F7;
+  margin-left: 10px;
+  }
 /* GAMER STYLES */
 .gamer-section{
     margin: 0 auto;

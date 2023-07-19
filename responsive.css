@@ -132,7 +132,7 @@
      .footer{
         padding: 150px 20px 0 ;
         margin: 0;
-        width:100vw;
+        
         height: auto;
      }
      .footer div{
@@ -271,7 +271,9 @@
      .footer{
         padding: 150px 70px 0 ;
         margin: 0;
-        width:100vw;
         height: auto;
+     }
+     .footer h5{
+        margin-left: 10px;
      }
 }
