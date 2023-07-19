@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 
 body{
-    margin: 0;
+    margin: 0 auto;
     padding:0;
     font-family: 'Work Sans', sans-serif;
     max-width: 130em;
     font-size: 1em;
-    background:linear-gradient(180deg, #f948b21a 0%, #8658f104 100%);
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 /* SHARED STYLES */
 .flex{
@@ -17,6 +18,7 @@ body{
 .primary-button{
     margin: 55px 0 0;
     padding: 21px 40px;
+    width:fit-content;
     gap: 10px;
     border-radius: 32px;
     border: none;
@@ -80,11 +82,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0 180px 0;
-
+    background-image:url('./images/Group\ 14.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .banner-content{
     width: 60%;
     height: auto;
+    
 }
 .banner-content h2{
     color: #0B0223;
@@ -213,19 +218,49 @@ nav{
     justify-content: center;
     gap:50px;
 }
-.image{
-    width:20vw;
+.icon-overlay {
+    position: absolute;
+    width: 99%;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    height: 99%;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+    overflow: hidden;
+    text-align: center;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+  }
+  .icon-overlay h5{
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F948B2;
+  
+  }
+  .image-container:hover .icon-overlay{
+    opacity: 1;
+    border: 4px solid hotpink;
+  }
+  .image-container{
+    position: relative;
+  }
+  .image-container img {
+    width: 100%; 
+     
+  }
+  .image{
+    width: 100%;
     height: 30vh;
   }
-  .image img {
-    width: 100%;
-  }
   
-  .image-description {
-    margin-top: 10px;
-    width:100%;
-  }
-  .image-description p{
+  .image-description{
     color: #534C64;
     font-size: .9em;
     font-weight: 500;
