@@ -266,13 +266,13 @@ nav{
 .play-games-picture img{
     max-width:100%;
 }
-.parent-image{
+.parent-image img{
     position: relative;
     bottom: -10em;
     left:5em;
     z-index: -1;
+    width: 100em;
 }
 .child-image{
-    width:40%;
-
+    width: 1em;
 }
