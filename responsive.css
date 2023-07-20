@@ -162,12 +162,11 @@
     }
     .banner-content{
         padding: 40px 0px 0;
-        margin: 50px 0;
+        margin: 50px auto;
         text-align: center;
     }
     .gamer-section{
         flex-direction: column;
-        background: none;
         gap:0px;
         padding: 0;
     }
@@ -185,21 +184,24 @@
         margin: 0 auto;
     }
     .gamer-content h4{
-        margin:20px;
+        margin:20px auto;
+    }
+    .online-games-section{
+        margin: 100px auto 100px;
     }
     .online-games-container {
-        gap:0px;   
+        width: 90vw;
+        margin: 0 auto;
+        gap:20px;   
     }
-    .image{
-        width:22vw;
-        height: 100%;
-        margin: 0 auto; 
-        gap:0px;   
-    }
-    .image img {
-        width: 100%;
-        height: auto;
-    }
+    .image-container img {
+        width: 100%; 
+        height: 50vh;
+      }
+      .icon-overlay {
+        width: 99%;
+        left: 0px;
+     } 
     .play-games-section{
         padding: 0 10px;
         grid-template-columns: repeat(1,1fr);
@@ -221,7 +223,6 @@
         transform: translateX(20%);      
     }
     .game-type-container{
-        justify-content: space-between;
         gap:10px;
         margin: 0 auto;
         padding: 20px;
