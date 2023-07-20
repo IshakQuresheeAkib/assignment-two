@@ -69,37 +69,30 @@
         height: 50vh;
     }
     .play-games-section{
-        padding: 0 10px;
+        padding: 0;
         flex-direction: column;
         align-items: center;
         gap:0px;
-        width:90vw;
-        margin: 0 auto;
+        justify-content:center ;
+        width:100%;
     }
-    .play-games-content {
-        width: 100%;
-        text-align: center;
-    }
-    .play-games-content p{
+    .play-games-section p,.play-games-section h3{
         text-align: center;
     }
     .play-games-picture{
-        width:100%;
-        margin: 0 auto ;
-        padding: 0 ;   
+        width:19em;
     }
-    .parent-image img{
+    .play-games-picture img{
         width:100%;
+        
     }
-    .child-image img{
-        width:100%;
-        margin: 0;
-        padding: 0;
+    .parent-image{
+        width: 100%;
+        margin: 0 auto;
+        margin: 0 auto;
     }
-    .parent-image {
-        width:70vw;
-        margin: 0 ;
-        padding: 0;
+    .child-image{
+        width: 60%;
     }
     .game-type-container{
         justify-content: space-between;
