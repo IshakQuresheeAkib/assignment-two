@@ -1,96 +1,72 @@
 @media screen and (max-width:576px) {
     body{
         font-size: 0.8em;
-        background:none;
     }
     .primary-button{
             padding:10px 20px;
-            margin: 0;
+            margin: 10px 0 0;
     }
+    /* HEADER STYLES */
+/* NAVIGATION BAR STYLES */
     .nav-link ul{
         flex-direction: column;
-        gap:50px;
+        gap:30px;
         text-align: center;
         margin: 0;
         padding: 0;
-    }
-    section{
-        padding: 0;
-        margin: 0;
     }
     nav{
         flex-direction: column;
         margin: 0;
         height: auto;
-        padding: 0 20px;
+        padding: 0 0px;
     }
+/* BANNER STYLES */
+    
     .banner-container{
         flex-direction: column-reverse;
         padding: 0;
+        gap:40px;
         background: none;
-        margin: 80px auto 0;
+        margin: 50px auto 100px;
         width: 100vw;
-        height: auto;
-        text-align: center;
-        
-    }
-    
+        height: auto;              
+    }   
     .banner-cartoon>img{
-        width:75vw;
+        width:95vw;
         height: auto;
         padding: 0;
         margin: 0 auto;
     }
-    .mini-pic>img{
-        width:35vw;
-    }
-    .mini-pic{
-        align-items: flex-end;
-        gap: 0px;
-    }
-    .banner-content{
-        text-align: center;
-        width:90%;
-        padding: 90px 20px 90px;
-        background-image:url('./images/Group\ 14.png');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+    /* GAMER STYLES */
     .gamer-section{
         flex-direction: column;
         background: none;
         gap:0px;
         padding: 0;
     }
-    .gamer-picture img{
-        width:100vw;
-        height: auto;
-    }
     .gamer-content{
         text-align: center;
-        width:80vw;
+        width:95vw;
         margin: 0 auto;
     }
-    .gamer-content h4{
-        margin:20px;
-    }
+    /*  ONLINE GAMES SECTION SECTION */
     .online-games-section{
         padding: 0 0px 50px;
         margin: 0 auto;
     }
     .online-games-container {
         flex-direction: column;
-        gap:10px;
+        gap:15px;
     }
     .image{
-        width:90vw;
-        height: 70vh;
+        width:60vw;
+        height: auto;
         text-align: center;
     }
     .image img {
-        max-width: 85%;
-        height: 60vh;
+        width: 100%;
+        height: 50vh;
     }
     .play-games-section{
         padding: 0 10px;
@@ -98,6 +74,7 @@
         align-items: center;
         gap:0px;
         width:90vw;
+        margin: 0 auto;
     }
     .play-games-content {
         width: 100%;
@@ -120,7 +97,8 @@
         padding: 0;
     }
     .parent-image {
-        margin: 0;
+        width:70vw;
+        margin: 0 ;
         padding: 0;
     }
     .game-type-container{
@@ -143,6 +121,10 @@
         justify-content: center;
         align-items: center;
      }
+     .icon-overlay {
+        width: 85%;
+        left: 25px;
+     }
 }
 
 
@@ -151,15 +133,17 @@
 
 @media screen and (min-width:576px) and (max-width:992px) {
     .nav-link ul{
-        gap:85px;
+        gap:90px;
         text-align: center;
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
+        width:100%;
     }
+    
     nav{
         flex-direction: column;
         align-items: center;
-        margin: 0px;
+        margin-bottom: 150px;
     }
     section{
         padding: 0;
@@ -172,13 +156,6 @@
         margin: 80px auto 0;
         width: 90vw;
         height: auto;
-    }
-    .banner-content{
-        text-align: center;
-        width:70vw;
-        padding: 60px 40px;
-        margin: 50px auto;
-        background:linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
     }
     .banner-cartoon>img{
         width:75vw;
@@ -195,10 +172,9 @@
     }
     
     .banner-content{
-        width:70vw;
-        padding: 60px 30px 0;
-        margin: 50px auto;
-        background:linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+        padding: 60px 0px 0;
+        margin: 50px 0;
+        text-align: center;
     }
     .gamer-section{
         flex-direction: column;
@@ -227,7 +203,7 @@
     }
     .image{
         width:22vw;
-        height: 80vh;
+        height: 100%;
         margin: 0 auto; 
         gap:0px;   
     }
@@ -253,11 +229,12 @@
         width:60vw;
         margin: 0 auto;
         padding: 0;
+        height: 100%;
         
     }
     .parent-image {
         width:50vw;
-        margin: 0;
+        margin: 0 ;
         padding: 0;
     }
     .game-type-container{
