@@ -187,7 +187,7 @@ nav{
 .online-games-section h1{
     color: #0B0223;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0;
 }
@@ -196,7 +196,7 @@ nav{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1em;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 .online-games-section>p{
@@ -218,7 +218,7 @@ nav{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
     overflow: hidden;
     text-align: center;
-    font-size: 3em;
+    font-size: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -228,9 +228,9 @@ nav{
   .icon-overlay h5{
     text-align: center;
     margin: 5px;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 600;
-    color: #F948B2;
+    color: #fe30ac;
   
   }
   .image-container:hover .icon-overlay{
@@ -241,8 +241,7 @@ nav{
     position: relative;
   }
   .image-container img {
-    width: 100%; 
-     
+    width: 100%;      
   }
   .image{
     width: 100%;
@@ -263,11 +262,9 @@ nav{
     gap:150px;
 }
 .play-games-content{
-    width:40%;
+    width:30%;
     text-align: right;
-    font-weight: 700;
-    line-height: 60px;
-    
+    font-weight: 700;  
 }
 .play-games-content span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -277,9 +274,10 @@ nav{
 }
 .play-games-content h3{
     color: #0B0223;
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 700;
     line-height: 60px;
+    margin-bottom: 20px;
 }
 .play-games-content p{
     color: #534C64;
@@ -295,7 +293,7 @@ nav{
     max-width:100%;
 }
 .parent-image{
-    width: 25em;
+    width: 100%;
     margin: 0 auto;
 }
 .parent-image img{
