@@ -320,7 +320,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:15px;
+    gap:35px;
  }
  .game-type-container>div{
     display: flex;
@@ -332,6 +332,7 @@ nav{
     gap:10px;
     border-radius: 50px;
     background: #FFF;
+    
  }
  .game-type-container p{
     color: #0B0223;
@@ -342,7 +343,7 @@ nav{
     border:1px solid #FF42A5;
     
  }
- .game-type-container p:hover{
+ .game-type-container>div:hover p{
     color:#FF42A5;
  }
  /* ENDING  GAME TYPES SECTION */

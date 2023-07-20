@@ -226,14 +226,15 @@
         gap:10px;
         margin: 0 auto;
         padding: 20px;
+        width:100vw;
      }
      .game-type-container>div{
-        width:25%;
+        width: 25%;
         height: auto;
         padding:5px;
      }
      .footer{
-        padding: 150px 70px 0 ;
+        padding: 150px 70px 10px ;
         margin: 0;
         height: auto;
      }
