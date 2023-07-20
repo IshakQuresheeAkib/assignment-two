@@ -90,10 +90,6 @@ nav{
     background-size: contain;
     background-repeat: no-repeat;
 }
-.banner-content{
-    width: fit-content;
-    height: 100%;
-}
 .banner-content h2{
     color: #0B0223;
     text-align: start;
@@ -119,7 +115,9 @@ nav{
     gap: 6px;
     height: 35px;
 }
-
+.banner-cartoon{
+    width:50%;
+}
 .banner-cartoon>img{
     width: 100%;
     height: 100%; 
@@ -230,7 +228,7 @@ nav{
     margin: 5px;
     font-size: 1rem;
     font-weight: 600;
-    color: #fe30ac;
+    color: #ffffff;
   
   }
   .image-container:hover .icon-overlay{
