@@ -256,18 +256,12 @@ nav{
   /* ENDING  ONLINE GAMES SECTION SECTION  */
 /* STARTING  PLAY GAMES SECTION */
 .play-games-section{
-    padding: 0 180px 100px;
+    padding: 100px 180px 100px;
     margin: 0 auto;
     justify-content: center;
     gap:150px;
-}
-.play-games-content{
-    width:30%;
-    text-align: right;
-    font-weight: 700;  
-}
-.play-games-content div{
-    width:50%;  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 .play-games-content span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -289,25 +283,28 @@ nav{
     font-weight: 400;
     line-height: 30px;
 }
+
+.play-games-content{
+    width: 100%;
+    text-align: right;
+    font-weight: 700;
+    margin: 0;  
+}
 .play-games-picture{
-    width:25em;
+    position: relative;
+    margin: 0 ;
+    width:100%;
+    height: auto;
+}
+.pg-short{
+  position: absolute;
+  width: 0%;
+  bottom:-5%;
+  left: -15%;
 }
 .play-games-picture img{
-    width:100%;
-}
-.parent-image{
-    width: 100%;
-    margin: 0 auto;
-}
-.parent-image img{
-    position: relative;
-    bottom: -10em;
-    left:5em;
-    z-index: -1;
-}
-.child-image{
-    width: 40%;
-}
+    width:80%;
+} 
  /* ENDING  PLAY GAMES SECTION */
  /* STARTING GAME TYPES SECTION */
  .game-type-section{
